@@ -1,7 +1,7 @@
-streamlit==1.22.0
-torch==1.13.1
-torchvision==0.14.1
-numpy==1.23.5
-Pillow==9.4.0
-matplotlib==3.7.1
-seaborn==0.12.2
+streamlit
+torch
+torchvision
+numpy
+Pillow
+matplotlib
+seaborn
