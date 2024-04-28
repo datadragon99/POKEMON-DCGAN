@@ -50,4 +50,4 @@ generated_images = (generated_images.permute(0, 2, 3, 1).detach().cpu().numpy() 
 generated_images = [Image.fromarray((img * 255).astype(np.uint8)) for img in generated_images]
 
 # Display the generated images as an animated GIF
-st.image(generated_images, use_column_width=True, caption="Generated Pokemon Images", format="gif", framerate=5)
+st.image(generated_images, use_column_width=True, caption="Generated Pokemon Images", framerate=5)
